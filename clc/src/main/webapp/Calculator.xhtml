@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+<meta charset="ISO-8859-1"/>
+<title>Insert title here</title>
+</h:head>
+<h:body>
+<h:form>
+<h:inputText value="#{FullClc.num1}"> </h:inputText>
+<h:panelGrid columns="4">
+<h:commandButton value="7" action="#{FullClc.append('7')}"/>
+<h:commandButton value="8" action="#{FullClc.append('8')}"/>
+<h:commandButton value="9" action="#{FullClc.append('9')}"/>
+<h:commandButton value="+" action="#{FullClc.append('+')}"/>
+<h:commandButton value="4" action="#{FullClc.append('4')}"/>
+<h:commandButton value="5" action="#{FullClc.append('5')}"/>
+<h:commandButton value="6" action="#{FullClc.append('6')}"/>
+<h:commandButton value="-" action="#{FullClc.append('-')}"/>
+<h:commandButton value="1" action="#{FullClc.append('1')}"/>
+<h:commandButton value="2" action="#{FullClc.append('2')}"/>
+<h:commandButton value="3" action="#{FullClc.append('3')}"/>
+<h:commandButton value="*" action="#{FullClc.append('*')}"/>
+<h:commandButton value="c" action="#{FullClc.append('c')}"/>
+<h:commandButton value="0" action="#{FullClc.append('0')}"/>
+<h:commandButton value="=" action="#{FullClc.append('=')}"/>
+<h:commandButton value="/" action="#{FullClc.append('/')}"/>
+</h:panelGrid>
+</h:form>
+</h:body>
+</html>
